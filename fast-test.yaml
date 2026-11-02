@@ -1,0 +1,10 @@
+run:
+  # Fixed seed: without it garak samples a different 32 prompts every run,
+  # so conditions would be scored on different prompt sets.
+  seed: 42
+  generations: 2
+  #soft_probe_prompt_cap: 32
+  soft_probe_prompt_cap: 256
+
+reporting:
+  report_dir: "/Users/sumaila/projects/guelph-llm-security/results"

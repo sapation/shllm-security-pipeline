@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.DS_Store
+# garak reports are large; ** also covers subfolders such as results/baseline-gpt2/
+results/**/*.jsonl
+results/**/*.html
+# personal working notes, not part of the submission
+notes/
