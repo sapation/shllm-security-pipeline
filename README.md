@@ -74,7 +74,6 @@ INPUT_GUARD=1 OUTPUT_FILTER=echo .venv/bin/python -m src.wrapper
 | `fast-test.yaml` | garak run config: seed, sample size, report directory |
 | `run_experiments.sh` | Reproduces every experiment |
 | `results/` | garak reports, held-out results, experiment notes |
-| `results/baseline-gpt2/`, `results/qwen3_baseline.*` | Early pilot runs using garak's own Hugging Face loader (not comparable with the wrapper runs) |
 
 ## Held-out prompt format
 
